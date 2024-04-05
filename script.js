@@ -4,10 +4,13 @@ square.style.width = '100px';
 square.style.height = '100px';
 square.style.backgroundColor = 'red';
 square.style.position = 'absolute';
-square.style.textAlign = 'center';
+square.style.backgroundImage = 'url("téléchargement.jpeg")';
+square.style.backgroundSize = 'cover',
+    square.style.backgroundPosition = 'center',
+    square.style.textAlign = 'center';
 square.style.lineHeight = '100px';
 square.style.cursor = 'pointer';
-square.innerText = 'click moi!!';
+square.innerText = 'frappe moi!!';
 
 console.log(square)
 
