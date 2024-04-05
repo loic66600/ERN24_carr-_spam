@@ -36,7 +36,7 @@ function moveSquare() {
 
 // on cree l evenement pour deplacer le carré
 square.addEventListener('mouseover', () => {
-    setTimeout(moveSquare, 100);
+    setTimeout(moveSquare, 150);
 })
 
 //on ajoute un evenement click "bravo"
